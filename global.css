@@ -1,0 +1,48 @@
+* {
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 100vw;
+  padding: 1rem 4rem;
+  border-bottom: 0.5px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.navbar-left-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4rem;
+}
+
+.navbar-right-menu {
+  display: flex;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.navbar-menu-container {
+  display: flex;
+  gap: 1rem;
+  font-weight: 300;
+}
+
+.navbar-menu-container > a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-menu-container > a:hover {
+  color: red;
+}
